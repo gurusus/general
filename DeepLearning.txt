@@ -15,4 +15,5 @@
 	-Scrapy
 	-Statsmodels
 https://docs.google.com/spreadsheets/d/1wLOtLLJ65QMbLumc3F2Mop_4uPIFbyJ6iDZwOp0cXrQ/edit#gid=0
+http://www.kdnuggets.com/2016/11/top-20-python-machine-learning-open-source-updated.html
 	
