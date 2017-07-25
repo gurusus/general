@@ -1,0 +1,18 @@
+1. python DeepLearning modules : http://www.kdnuggets.com/2017/06/top-15-python-libraries-data-science.html
+	-NumPy
+	-Scipy
+	-Pandas
+	-Matplotlib
+	-Seaborn
+	-Bokeh
+	-Plotly
+	-Scikit-learn
+	-Theono
+	-TensorFlow
+	-Keras
+	-NLTK
+	-Gensim
+	-Scrapy
+	-Statsmodels
+https://docs.google.com/spreadsheets/d/1wLOtLLJ65QMbLumc3F2Mop_4uPIFbyJ6iDZwOp0cXrQ/edit#gid=0
+	
