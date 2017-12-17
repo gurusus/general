@@ -1,0 +1,38 @@
+Collaboration
+
+Slack - Internal chat; external chat; Github, Jenkins and Pingdom notifications.
+Google Drive - Sharing design docs/spreadsheets/presentations (inline commenting is great).
+Google Hangouts - Video chat for standups and other meetings.
+Screenhero - Pair programming tool. Both people can control mouse/keyboard and it’s the most reliable experience I’ve found with spotty connections.
+asciinema - Record and share terminal screencasts. Especially useful for sharing CLI workflows and creating tutorials. Check out the -w flag on the rec command, very nice for long-running commands.
+ngrok - Secure tunnels to localhost. I use this when I have local API or site changes that I want to share for feedback before pushing live. This can really help shorten feedback cycles for design work.
+mac2imgur - Uploads screenshots to imgur.com. Much better than sending around files saved to your Desktop. It copies the imgur URL to your clipboard once it’s uploaded.
+keen.io - I use this to track events over time, for example Github downloads of open-source projects. Keen makes it easy to instrument your code and stop guessing.
+Mou - Writing Markdown docs with live preview. I write READMEs in Mou before pushing them to GitHub.
+ 
+Development
+
+iTerm2 - Much better than the default Terminal app. Split panes, search, instant replay, etc. I’m using the Pastel (Dark Background) color scheme.
+zsh - A better shell than the old bash OSX ships with. Tab completion, autocompletion plugins, easily customizable. brew install zsh via homebrew. Add oh-my-zsh on top and you’re set.
+mackup - I back up my config files to Dropbox. When I got a new machine it took an hour, not days, to set it back up for development.
+CakeBrew - A GUI for homebrew. I have a lot of homebrew packages installed, it’s easier for me to make sense of them with a GUI.
+docker-machine - I use this to set up a VirtualBox VM running the Docker service. It also installs the Docker client in OSX. I used to use boot2docker, but the future is docker-machine.
+Vagrant - If a project is not run in Docker, it’s run in a Vagrant VM. “It works on my machine” is so 2010.
+ChefDK - We use chef-solo a lot at Conjur, so having all the tools bundled together is nice. My favorite tool in the bundle: test-kitchen. It’s not Chef-specific. For example, you can provision a Docker container with a shell script and run tests against it. test-kitchen helps you manage the lifecycle of the test machine.
+packer - My go-to tool for building AMIs. It’s more lightweight than using the vagrant-aws plugin.
+RubyMine - vim or emacs? I abstain. The debugger is really nice and I can attach to remote Ruby interpreters (Vagrant or Docker instances). The Chef plugin is pretty good too.
+PyCharm - Great debugger, IPython notebook integration. I tried every Python IDE and settled on this one a couple years ago.
+Sublime Text 3 - For smaller and non-Ruby/Python projects, my default editor. The GoSublime plugin is a little complicated to configure, but makes writing Go code easier. We’ve started using the Jenkins Job DSL at Conjur, so I’m writing Groovy in Sublime as well.
+CheatSheet - I can’t remember the keyboard shortcuts for every app I use. CheatSheet runs in the background and I hold command to see the shortcuts for the app I’m in.
+Rested - man curl. Look at all those flags! I use Rested to explore and test APIs. Sometimes I’ll save requests and replay them later for regression testing. httpie is also pretty nice, if you’re looking for a curl alternative.
+Patterns - I use this app to double-check my regular expressions. It supports multiple languages and has a built-in cheat sheet.
+ 
+Other
+
+RescueTime - I use this to track how much time I spend in different applications throughout the week. You can use this to measure the impact switching tools has on your productivity. How meta.
+
+Yoink - Makes drag and drop a lot easier.
+Generate CloudFormation json -> Yoink -> AWS console.
+
+Evernote - I take notes whenever I watch conference videos or read tech books.
+
